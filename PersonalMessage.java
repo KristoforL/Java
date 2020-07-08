@@ -15,5 +15,19 @@ public class PersonalMessage {
 
         System.out.println(full);
 
+        //But what about lower caseing the letters
+        String FIRST = "JIM BEAN";
+        String LAST = "JACK DANIELS";
+        
+        //lowercases just the first letter
+        String FULL = FIRST.substring(0, 1).toLowerCase() + FIRST.substring(1) + " "
+                + LAST.substring(0, 1).toLowerCase() + LAST.substring(1);
+        
+        //Lowercases all letters
+        String lower = FIRST.toLowerCase() + " " + LAST.toLowerCase(); 
+
+
+        System.out.println(FULL);
+        System.out.println(lower);
     }
 }
