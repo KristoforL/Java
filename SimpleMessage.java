@@ -1,7 +1,7 @@
 class SimpleMessage{
     public static void main(String[] args) {
     
-        String message = "This is a simple messag.e";
+        String message = "This is a simple message.";
 
         System.out.println(message);
 
